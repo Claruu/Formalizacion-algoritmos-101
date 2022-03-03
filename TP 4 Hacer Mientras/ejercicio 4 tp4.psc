@@ -1,4 +1,4 @@
-Algoritmo ejercicio_5_tp4
+Algoritmo ejercicio_4_tp4
 	//Realizar un programa que acumule (sume) valores ingresados por teclado hasta ingresar el 9999 
 	//(no sumar dicho valor, indica que ha finalizado la carga). Imprimir el valor acumulado e informar si dicho valor es cero, mayor a cero o menor a cero.
 	
@@ -8,7 +8,7 @@ Algoritmo ejercicio_5_tp4
 	limite=9999
 	
 	Repetir
-		Mostrar "Che dame un número así te lo sumo. Para cerrar el programa, escribi 9999"
+		Mostrar "Che dame un nÃºmero asÃ­ te lo sumo. Para cerrar el programa, escribi 9999"
 		Leer num
 		Si num < 9999
 			acumuladorSuma=acumuladorSuma+num	
@@ -16,11 +16,11 @@ Algoritmo ejercicio_5_tp4
 	Hasta Que num = limite
 	
 	Si acumuladorSuma > 0 entonces
-		Mostrar "Yo se que tú número es mayor a 0, ya que es " acumuladorSuma
+		Mostrar "Yo se que tÃº nÃºmero es mayor a 0, ya que es " acumuladorSuma
 	Sino si acumuladorSuma < 0 entonces
-			Mostrar "Estoy segura de que tú número es menor a cero, seguro negativo e-e... Así que tú número es " acumuladorSuma
+			Mostrar "Estoy segura de que tÃº nÃºmero es menor a cero, seguro negativo e-e... AsÃ­ que tÃº nÃºmero es " acumuladorSuma
 		Sino si acumuladorSuma = 0 Entonces
-				Mostrar "Qué lástima, tú número es " acumuladorSuma "..."
+				Mostrar "QuÃ© lÃ¡stima, tÃº nÃºmero es " acumuladorSuma "..."
 			FinSi
 		FinSi
 	FinSi
