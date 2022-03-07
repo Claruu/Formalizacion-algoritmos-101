@@ -11,11 +11,11 @@ Algoritmo Ejercicio_6_tp5
 		Mostrar "Ingrese nota #", indice
 		Leer notas
 		si notas >= 7 Entonces
-			notas=notasBuenas
+			notas = notasBuenas
 			notasBuenas = notasBuenas + 1
 		SiNo
-			notas=notasMalas
-			notasMalas=notasMalas+1
+			notas = notasMalas
+			notasMalas = notasMalas + 1
 		FinSi
 	Fin Para
 	
