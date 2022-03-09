@@ -13,6 +13,6 @@ Algoritmo Ejercicio_11_tp5
 			numerosMayorcitos=numerosMayorcitos+1
 		FinSi
 	Fin Para
-	Mostrar "Los números mayores o iguales a 1000 entre los que me pasaste son " numerosMayorcitos
+	Mostrar "Los números > o = a 1000 entre los que me pasaste son " numerosMayorcitos
 	
 FinAlgoritmo
