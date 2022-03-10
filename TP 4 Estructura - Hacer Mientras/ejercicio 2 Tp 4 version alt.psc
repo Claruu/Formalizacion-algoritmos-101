@@ -1,4 +1,4 @@
-Algoritmo tp_4_ejercicio_2version1
+Algoritmo tp_4_ejercicio_2versionALT
 	//Escribir un programa que solicite la carga de números por teclado y que permita obtener el  promedio de todos los números ingresados.
 	//Finalizar la carga de valores cuando se cargue el valor 0.
 	
