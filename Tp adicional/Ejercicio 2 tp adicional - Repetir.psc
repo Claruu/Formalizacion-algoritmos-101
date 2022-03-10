@@ -1,16 +1,18 @@
 Algoritmo ejercicio_2_tp_adicional_resolRepetir
-	Definir numeroUser, indice Como Entero
-	indice=1
-	numeroUser=0
+	Definir numeritos, numeroLindo, indice Como Entero
+	indice=0
+	numeroLindo=1
+	numeritos=1
 	
 	Mostrar "Dame un número lindo"
-	Leer numeroUser
+	Leer numeroLindo
 	
 	Repetir
-		Si (numeroUser mod indice) = 0 Entonces
-			Mostrar "Tú número lindo es divisible por " indice
-		FinSi
 		indice = indice + 1
-	Hasta Que indice > numeroUser
+		numeritos= -indice
+		Si numeroLindo mod indice = 0 Entonces
+			Mostrar "Tú número lindo es divisible por " indice " y por " numeritos
+		FinSi
+	Hasta Que indice = abs(numeroLindo)
 	
 FinAlgoritmo
