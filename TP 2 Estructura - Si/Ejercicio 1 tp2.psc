@@ -6,9 +6,12 @@ Algoritmo tp_2_ejer_1
 	Mostrar "Ingrese un número, por favor"
 	Leer numeroElegido
 	
-	Si numeroElegido >= 0 Entonces;
-		Mostrar "Tú número es mayor o igual a cero";
+	Si numeroElegido > 0 Entonces;
+		Mostrar "Tú número es mayor a 0";
 	SiNo 
-		Mostrar "Tu número es menor o igual a cero"
+		si numeroElegido <= 0 entonces
+			Mostrar "Tu número es menor o igual a cero"
+		FinSi
 	FinSi
+
 FinAlgoritmo

@@ -15,5 +15,6 @@ Algoritmo fibonacci
 		numeroUno = numeroDos
 		numeroDos = numeroFinal
 	FinPara
-
+	Mostrar numeroUno
+	
 FinAlgoritmo

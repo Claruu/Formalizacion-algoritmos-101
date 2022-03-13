@@ -5,6 +5,8 @@ Algoritmo ejercicio_1
 	
 	Mientras contador < 10 Hacer
 		contador= contador + 1
+		Esperar 1 Segundos
 		Mostrar contador
 	Fin Mientras	
+	
 FinAlgoritmo

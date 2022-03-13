@@ -3,13 +3,7 @@ Algoritmo ejercicio_7
 	//Si trabaja 40 horas o menos se le paga $300 por hora
 	//Si trabaja más de 40 horas se le paga $300 por cada una de las primeras 40 horas y   $400 por cada hora extra.
 
-	Definir salarioSemanal Como Entero
-	Definir salarioExtra Como Entero
-	Definir horasTrabajadas Como Entero
-	Definir pagaBase Como Entero
-	Definir pagaExtra Como Entero
-	Definir horasExtra Como Entero
-	
+	Definir salarioSemanal, salarioExtra, horasTrabajadas, pagaBase, pagaExtra, horasExtra Como Entero
 	pagaBase= 300
 	pagaExtra= 400
 	horasExtra= 0
@@ -26,7 +20,6 @@ Algoritmo ejercicio_7
 		salarioSemanal= horaslimite * pagaBase
 		salarioSemanal = (horasTrabajadas - horaslimite) * pagaExtra
 		Mostrar "Esta semana, ya que trabajaste " horasTrabajadas " horas, cobrarás $" salarioSemanal + salarioExtra 
-		
 	Fin Si
 	
 FinAlgoritmo

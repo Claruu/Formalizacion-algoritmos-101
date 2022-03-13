@@ -5,7 +5,7 @@ Algoritmo ejercicio_8_tp_adicional
 	//El usuario deberá ingresar primero un número, si acertó, el sistema le informará por pantalla el acierto y luego terminará. 
 	//Si el número ingresado por el usuario es mayor o menor que el que tiene que adivinar, el sistema lo informará por pantalla y continuará hasta que adivine.
 	Definir akinator, numeroUser,limite,limiteMenor Como Entero
-	limite=100
+	limite=10000
 	Mostrar "Voy a elegir un número del 0 al " limite ", adivinalo"
 	akinator=azar(limite)
 	limiteMenor = 0
@@ -13,6 +13,7 @@ Algoritmo ejercicio_8_tp_adicional
 		Repetir
 			numeroUser=azar(limite)	
 		Hasta Que numeroUser > limiteMenor
+		Mostrar "Nuevo limite menor: " limiteMenor
 		
 		Si numeroUser > limite 
 			Mostrar numeroUser
@@ -25,7 +26,7 @@ Algoritmo ejercicio_8_tp_adicional
 				Mostrar numeroUser
 				Mostrar "Tú número es mayor al que pensé, seguí intentandolo :D"
 				limite=numeroUser
-				Mostrar "Nuevo limite: " limite
+				Mostrar "Nuevo limite mayor: " limite
 			Sino
 				Mostrar numeroUser
 				limiteMenor = numeroUser

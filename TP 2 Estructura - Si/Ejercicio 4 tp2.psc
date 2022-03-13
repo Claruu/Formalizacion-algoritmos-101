@@ -22,9 +22,9 @@ Algoritmo Ejercicio_4_tp2
 		Mostrar "El alumno no puede sacarse más de 10, o menos de 0 en uno o más tps, revise sus notas."
 	SiNo
 		si promedio >= 6 Entonces
-			Mostrar "El alumno ha sido aprobado."
+			Mostrar "El alumno ha sido aprobado, con un promedio de " promedio
 		SiNo
-			Mostrar "El alumno ha sido reprobado."
+			Mostrar "El alumno ha sido reprobado, con un promedio de " promedio
 		Fin Si
 	Fin Si
 

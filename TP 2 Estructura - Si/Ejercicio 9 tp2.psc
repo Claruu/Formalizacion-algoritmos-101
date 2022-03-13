@@ -12,14 +12,14 @@ Algoritmo ejercicio_9
 	resultadoDescuento=0
 //primero, a definir y dar valor o limpiar las variables.
 	
-	Mostrar "En un local de ropa, ves una promo: Si compras 3 camisas o más, se hace el 20% de descuento. Sino, se hace el 10%. En la caja, contas cuántas camisas compraste"
+	Mostrar "En un local de ropa, ves una promo: Si compras 3 camisas o más, se hace el 20% de descuento. Sino, se hace el 10%. En la caja, contas cuántas camisas compraste:"
 	Leer totalCamisas
-	Mostrar "¿Te acordás de cuánto costaba cada camisa? A ver"
+	Mostrar "¿Cuánto costaba cada camisa?"
 	Leer precioCamisas
 	
 //aca calculo el precio final a pagar por las camisas
 	precioFinal = totalCamisas * precioCamisas 
-	
+	Mostrar "Ya que compraste " totalCamisas " camisas, el precio antes del descuento sería de $" preciofinal
 	Si totalCamisas >= 3 Entonces
 		pordescuentoReal = descuento20
 	SiNo
@@ -30,6 +30,6 @@ Algoritmo ejercicio_9
 	resultadoDescuento = (pordescuentoReal*precioFinal) / 100
 	precioFinal = precioFinal - resultadoDescuento
 //best cálculo ever para los descuentos!
-	Mostrar "Bueno, compraste " totalCamisas " camisas. Entonces en la caja pagas, con el descuento $" precioFinal
+	Mostrar "En la caja pagas, con el descuento $" precioFinal
 	
 FinAlgoritmo

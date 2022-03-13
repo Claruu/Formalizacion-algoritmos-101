@@ -9,17 +9,13 @@ Algoritmo ejercicio_11
 	Leer numerotres
 	
 	Si (numerouno > numerodos) y (numerouno > numerodos)  Entonces
-		Mostrar "Vamos todavía, el 1 es el mejoor!"
-		
+		Mostrar "El primer número es el más grande"
 		SiNo Si (numerodos > numerouno) y (numerodos > numerotres)
-			Mostrar "Nahh mira, el 2 es el mejor!"
-			
+			Mostrar "Tú segundo número es el más grande"
 			Sino si (numerotres > numerouno) y (numerotres > numerodos)
 				Mostrar "El 3 manda por acá locoh"
-				
-				sino si (numerouno = numerodos) y (numerodos = numerotres)
-					Mostrar "Naa cheee tenías que poner distintooos"
-					
+				Sino si (numerouno = numerodos) y (numerodos = numerotres)
+					Mostrar "Como que te había dicho que pusieras distintos 7-7"
 				FinSi
 			Fin Si
 		FinSi
